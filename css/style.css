@@ -1,0 +1,21 @@
+html {
+    scroll-behavior:smooth;
+}
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    border: 2px solid black;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background: white;
+    padding: 0;
+}
+nav ul li:hover ul{
+    display: block;
+}
+.subject-nav {
+    position: sticky;
+}
